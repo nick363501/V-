@@ -31,6 +31,6 @@ jobs:
       displayName: 'Publish Web'
       inputs:
         azureSubscription: 'AzureTraining'
-        appName: 'AzureDeployment1'
+        appName: 'VS1Deploy'
         package: '$(System.DefaultWorkingDirectory)'
         customWebConfig: '-Handler iisnode -NodeStartFile server.js -appType node'

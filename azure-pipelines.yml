@@ -26,7 +26,7 @@ jobs:
     - task: PublishBuildArtifacts@1
       displayName: 'Publish Artifact Zip'
       inputs:
-        artifactName: 'AzureDeploy'
+        artifactName: 'VS1Deploy'
     - task: AzureWebApp@1
       displayName: 'Publish Web'
       inputs:

@@ -1,6 +1,6 @@
 
 jobs:
-  - job: AzureTest
+  - job: VS1
     pool:
       vmImage: 'windows-latest'
       variables:
